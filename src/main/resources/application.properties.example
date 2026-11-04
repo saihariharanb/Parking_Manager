@@ -1,0 +1,9 @@
+# Example Database Configuration Template for College Parking Manager
+# Copy this file to application.properties and update credentials as needed.
+
+db.url=jdbc:mysql://localhost:3306/college_parking?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+db.user=root
+db.password=YOUR_MYSQL_PASSWORD_HERE
+
+# Connection timeout settings (in seconds)
+db.timeout=5
